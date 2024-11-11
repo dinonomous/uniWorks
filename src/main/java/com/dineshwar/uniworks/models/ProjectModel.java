@@ -29,4 +29,6 @@ public class ProjectModel {
     @Column(name = "updated_at")
     @Temporal(TemporalType.TIMESTAMP)
     private Date updatedAt;
+
+    private Long clientId;
 }

@@ -1,7 +1,6 @@
 package com.dineshwar.uniworks.models;
 
 import jakarta.persistence.*;
-
 import java.util.Date;
 
 @Entity
@@ -26,7 +25,7 @@ public class AppUser {
 
     private String phone;
     private String address;
-    private String role = "Client"; // Default role
+    private String role = "User"; // Default role
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date createdAt;
